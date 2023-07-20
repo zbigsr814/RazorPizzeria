@@ -1,0 +1,24 @@
+﻿@page
+@model RazorPizzeria.Pages.PizzaModel
+@{
+}
+
+<div class="text-center">
+    <h1>Robimy najlepszą pizzę</h1>
+    <h2>Wiemy, co dobre</h2>
+    <p class="smallText"><i>Max. jedna pizza na jedno zamówienie</i></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5 mt-5">
+                <div class="w-100 makeYourOwnDiv szary-prostokat d-flex flex-column align-items-center" style="height: 80%;">
+                    <!-- Obraz, tekst i przycisk -->
+                    <img src="~/images/Pizzas/Create.png" class="img-fluid mb-3" style="width: 100%; height: 100%; object-fit: cover;" />
+                    <div class="text-center">
+                        <h3 style="text-align: left;">Kreator tworzenia pizzy</h3>
+                        <a class="btn btn-primary" asp-area="" asp-page="/Forms/CustomPizza">Utwórz</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
